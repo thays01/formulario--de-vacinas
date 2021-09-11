@@ -1,0 +1,55 @@
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+        
+body {  
+    background-color: #e2eff5;
+}
+
+button { 
+    border: 5px solid rgb(169, 204, 233);
+    background: rgb(15, 111, 207);
+    color: seashell;
+    padding: 5px;
+    width: 200px;
+    height: 0,0cm;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 15px; 
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    margin: 50px 150px 50px 150px;
+    padding: 15px;
+    background-color: #4f88dd;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    color: black;
+    font-style: italic;
+}
+
+.info h1, h2 {
+    color: #e2eff5;
+    margin: 15px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+

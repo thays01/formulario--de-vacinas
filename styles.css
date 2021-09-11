@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e2eff5;
+}
+
+.link {
+   display: flex;
+   margin-top: 20px;
+}
+
+.link img {
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+
+.campo input {
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: inset;
+    vertical-align: sub;
+    vertical-align: text-bottom;
+    border-width:unset;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 15px
+}
+
+.campo form {
+    display: flex; 
+    margin-top: 20px; 
+    justify-content: center;
+    align-items: baseline;
+}
+
+.campo button {
+    border: 5px solid rgb(169, 204, 233);
+    background: rgb(15, 111, 207);
+    color: seashell;
+    padding: 5px;
+    width: 200px;
+    height: 0,0cm;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 15px; 
+    justify-content: center;
+}
+
+.container {
+    padding: 50px;
+    max-width: 500px;
+    max-height: 800px;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    margin-left: 30%;
+    margin-top: 75px;
+    background-color: #4f88dd;
+}
+
+.container h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.botaoEnviar {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+    

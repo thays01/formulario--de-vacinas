@@ -1,0 +1,86 @@
+@media only screen and (max-device-width: 1200px) {
+    /* .menu { width:100%; } */
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #e2eff5;
+}
+
+.titulo { 
+    text-align: center;
+    margin-top: 0px;
+    color: seashell;
+}
+
+button { 
+    border: 5px solid rgb(169, 204, 233);
+    background:  rgb(15, 111, 207);
+    color: seashell;
+    padding: 5px;
+    width: 200px;
+    height: 0,0cm;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+
+.campo { 
+    width: 400px;
+    height:600px;
+    border:2px solid rgb(2, 139, 252);
+    padding:20px;
+    box-sizing:border-box;
+    margin-left:-100px; 
+    position:relative;
+    top: 0,5%;
+    left: 43%;
+    font-size: 20px;
+    color: rgb(224, 239, 255);
+    margin-top: 10px;
+    text-align: center;  
+    background-color: #4f88dd; 
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.campo input {
+    border-radius: 100px;
+    text-align: center;
+}
+
+.campo label {
+    color: rgb(12, 13, 14);
+    font-weight: bolder;
+}
+
+textarea {
+    border: 5px solid rgb(169, 204, 233);
+    width: 100px;
+    height: 100px;
+}
+
+select {
+    border-radius: 100px;
+    text-align: center;
+    border: 5px solid rgb(169, 204, 233);
+    background: rgb(42, 134, 209);
+    color: seashell;
+    font-size: 16px;
+}
+
+.titulo h1 {
+    color:rgb(12, 13, 14)
+}
+
+.botao {
+    margin-bottom: 70px;
+}
+

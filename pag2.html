@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="home.png">
+    <link rel="stylesheet" href="./pag2.css">
+    <title>Pesquisa</title>
+</head>
+
+<body>
+        <div class="titulo">
+            <img src="covid.png" alt="virus">
+            <h1>Questionario sobre possiveis infecções:</h1>
+        </div>
+
+        <div class="campo">
+            <form>
+                <label> Já esteve infectado pelo COVID: </label>
+                <br>
+                <input type="radio" name="infectado" value="Sim"> Sim
+                <input type="radio" name="Não Infectado" value="Não"> Não
+                <br>
+
+                <label> Se sim, descreva os principais sintomas abaixo:</label>
+                <br>
+                <textarea row="6" style="width: 26em" id="Sintomas" name="Sintomas"></textarea>
+                <br>
+
+
+
+                <label> Qual Vacina tomou: </label>
+                <br>
+                <input type="radio" name="coronavac" value="coronavac"> Coronavac
+                <input type="radio" name="pfizer" value="pfizer"> Pfizer
+                <input type="radio" name="Astrazeneca" value="Astrazenca"> Astrazeneca
+                <br>
+                <input type="radio" name="janssen" value="janssen"> Janssen
+                <br>
+
+
+
+                <label> Tomou a segunda dose?</label>
+                <br>
+                <input type="radio" name="infectado" value="Sim"> Sim
+                <input type="radio" name="Não Infectado" value="Não"> Não
+                <br>
+
+
+
+
+                <label> Se não tiver tomado, digite abaixo o motivo: </label>
+                <br>
+                <textarea row="6" style="width: 26em" id="motivo" name="motivo"></textarea>
+                <br>
+
+
+
+                <label> Doenças pré existentes: </label>
+                <br>
+                <select id="doenças">
+                    <option value="">Selecione</option>
+                    <option value="anemia"> Anemia</option>
+                    <option value="diabetes"> Diabetes</option>
+                    <option value="hipertensão">Hipertensão</option>
+                    <option value="cardiovasculares">Cardiovasculares</option>
+                    <option value="asma">Asma</option>
+                    <option value="cancer">Câncer</option>
+                </select>
+            </form>
+            
+        </div>
+
+        <div class="botao">
+            <a href="index.html" rel="prev"><button>Sair</button></a>
+            <a href="pag3.html" rel="prev"><button>Avançar</button></a>
+        </div>
+
+</body>
+
+</html>
